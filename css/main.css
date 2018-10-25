@@ -1,0 +1,196 @@
+* {padding: 0; margin: 0;}
+
+h1 {
+	color: #bbb;
+}
+
+h3 {
+	color: #eee;
+}
+
+p {
+	color: #bbb;
+}
+
+body {
+	background: url("../imgs/footer_lodyas.png");
+}
+
+header {
+	padding: 15px;
+	width: 430px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+main {
+	position: relative;
+	margin: 0 auto;
+	height: 382px;
+
+	border-radius: 15px 15px 15px 15px;
+	-moz-border-radius: 15px 15px 15px 15px;
+	-webkit-border-radius: 15px 15px 15px 15px;
+	border: 0px solid #000000;
+
+	background-color: #555;
+
+	-webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+}
+
+#info
+{
+	position: relative;
+	height: 32px;
+}
+
+#left {
+	position: absolute;
+	left: 15px;
+	top: 15px;
+	width: 50px;
+	height: 20px;
+	background-color: #bbb;
+
+	text-align: center;
+	line-height: 20px;
+
+	-webkit-box-shadow: inset 2px 2px 2px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 2px 2px 2px 0px rgba(0,0,0,0.75);
+	box-shadow: inset 2px 2px 2px 0px rgba(0,0,0,0.75);
+
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border: 0px solid #000000;
+}
+
+#center {
+	position: absolute;
+	width: 32px;
+	height: 32px;
+	top: 6px;
+	left: 50%;
+	margin-left: -16px;
+}
+
+#right {
+	border: 1px solid #333;
+	position: absolute;
+	right: 15px;
+	top: 15px;
+
+	width: 50px;
+	height: 20px;
+	background-color: #bbb;
+
+	text-align: center;
+	line-height: 20px;
+
+	-webkit-box-shadow: inset 2px 2px 2px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 2px 2px 2px 0px rgba(0,0,0,0.75);
+	box-shadow: inset 2px 2px 2px 0px rgba(0,0,0,0.75);
+
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border: 0px solid #000000;
+}
+
+#field {
+	padding: 15px;	
+}
+
+footer{
+	width: 430px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.cell {
+	height: 32px;
+	width: 32px;
+	position: absolute;
+}
+
+aside {
+	position: absolute;
+	height: 400px;
+	width: 332px;
+	background-color: #555;
+	top: 20px;
+	left: 40px;
+	border-radius: 0 15px 15px 0;
+
+	-webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+}
+
+aside div {
+	width: 200px;
+	position: relative;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 20px;
+}
+
+#asideNav {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	width: 32px;
+	height: 60px;
+	top: 170px;
+	right: 2px;
+	background-image: url("../imgs/Options_Arrow_Open.svg");
+	background-repeat: none;
+	cursor: pointer;
+}
+
+#asideText {
+
+	height: 32px;
+	width: 100px;
+	position: absolute;
+	top: 60px;
+	right: -10px;
+	font-size: 20px;
+
+	/* Safari */
+	-webkit-transform: rotate(-90deg);
+
+	/* Firefox */
+	-moz-transform: rotate(-90deg);
+
+	/* IE */
+	-ms-transform: rotate(-90deg);
+
+	/* Opera */
+	-o-transform: rotate(-90deg);
+
+	/* Internet Explorer */
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+#asideText h3 {
+	color: #ccc;
+}
+
+#heightInput {
+	
+}
+
+#widthInput {
+	
+}
+
+#minesInput {
+	
+}
+
+#startButton {
+	margin-top: 10px;
+}
